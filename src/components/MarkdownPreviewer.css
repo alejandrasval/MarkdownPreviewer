@@ -1,0 +1,33 @@
+body {
+    background-color: #FAFAFA;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.markdown-container {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.markdown-preview {
+    padding: 20px;
+    font-size: 22px;
+}
